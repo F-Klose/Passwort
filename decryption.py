@@ -1,11 +1,12 @@
 from curses.ascii import isprint
+#TODO: siehe unten offene tasks für decryption.py
 # noch nicht fertig aus alt projekt zum überarbeiten entnommen
 # caesar verschlüsselung muss hier wieder zurück gesetzt werden nach schussel wert aus DB 
 # mit cout -> ist count durch 2 teil bar dann wird der wert in negative gesetzt 
 
 
 
-def cesar_verschiebung(text, shift):
+def caesar_cipher(text, shift):
     text = text.lower()
     text = text.replace("ä", "ae").replace("ü", "ue").replace("ö", "oe")
     result = []
@@ -43,7 +44,7 @@ while True:
         print("")
         print(" noch mal ")
         print("")
-shifted_text = cesar_verschiebung(text, shift) 
+shifted_text = caesar_cipher(text, shift) 
 e15_wörter = ''.join(shifted_text.split()[5])
 print("")
 print(f"\n kurzer auszug aus dem Text: \n{e15_wörter}")
@@ -52,7 +53,7 @@ further_shift = input("\noch eine verschibung vornehmen?")
 print("")
 print("")
 if further_shift == "ja":
-    cesar_verschiebung()
+    caesar_cipher()
 else:
     whole_text = input("\nsoll der ganze text angezeigt werden(ja/nein)")
     if whole_text == "ja":
@@ -61,4 +62,4 @@ else:
         print("fertig")
 
 
-cesar_verschiebung()
+caesar_cipher()

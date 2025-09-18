@@ -1,4 +1,4 @@
 import unittest
 import sys
 import os
-import passwort_verschlüsselung
+import password_encryption
