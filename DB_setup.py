@@ -1,0 +1,1 @@
+# hier wird geprüft ob datenbank vorhanden ist und wenn nicht wird sie erstellt
