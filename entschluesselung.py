@@ -1,6 +1,8 @@
 from curses.ascii import isprint
 # noch nicht fertig aus alt projekt zum überarbeiten entnommen
 # caesar verschlüsselung muss hier wieder zurück gesetzt werden nach schussel wert aus DB 
+# mit cout -> ist count durch 2 teil bar dann wird der wert in negative gesetzt 
+
 
 
 def cesar_verschiebung(text, shift):
