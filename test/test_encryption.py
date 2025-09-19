@@ -1,5 +1,6 @@
 import sys
 import os
+<<<<<<< HEAD:test/test_verschlüsselung.py
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from verschluesselung import verschluesselung
@@ -20,3 +21,6 @@ class TestVerschluesselung(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+=======
+import password_encryption
+>>>>>>> 0bc394f219c0e948e0b4a8297c6c9aec5b8e59bf:test/test_encryption.py
