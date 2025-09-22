@@ -1,8 +1,6 @@
 
 # Mini-Projekt: Password Generator
 
-## marp: true
-
 **Agenda:**
 
 1. Projektüberblick
