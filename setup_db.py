@@ -20,9 +20,9 @@ def init_db():
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     c.execute("""
-        CREATE TABLE IF NOT EXISTS keys (
-            Password TEXT PRIMARY KEY,
-            Key TEXT NOT NULL,
+        CREATE TABLE IF NOT EXISTS passwords (
+            password TEXT PRIMARY KEY,
+            Key INTEGER NOT NULL,
             App TEXT NOT NULL
         )
     """)
