@@ -59,8 +59,8 @@ def decryption(text, shift):
 ## 4. Offene Punkte
 
 * Fertigstellung und Optimierung der `main.py`.
-* Anpassung der Funktionen zur **sicheren und unklaren Speicherung der Schlüssel**.
-* Optimierung der Passwortausgabe und Entschlüsselung, sodass die Schlüssel weiterhin verborgen bleiben.
+* Anpassung der Funktionen zur **Speicherung(Unklar) der Schlüssel**.
+* Optimierung der Passwortausgabe und Entschlüsselung(mit unklarem schlüssel).
 
 ---
 
