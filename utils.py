@@ -23,6 +23,6 @@ def output_password():
     c.execute('SELECT * FROM passwords')
     conn.commit()
     conn.close()
-    print(f"""✅ Passwort erfolgreich ausgegeben: {DB_PATH}""")
+    print(f""" Passwort erfolgreich ausgegeben: {DB_PATH}""")
     
 #TODO: Tests schreiben für die Funktionen
